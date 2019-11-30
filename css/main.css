@@ -1,0 +1,284 @@
+.navbar-dark {
+    background: #3b55e6 !important;
+}
+
+#main-section-container {
+    padding: 2% 3%;
+}
+
+#main-section {
+    padding: 2% 2%;
+    -webkit-box-shadow: rgba(9, 132, 227,1.0) 1px 1px 20px;
+    -moz-box-shadow: rgba(9, 132, 227,1.0) 1px 1px 20px;
+    box-shadow: rgba(9, 132, 227,1.0) 1px 1px 20px;
+    overflow: auto;
+    background: linear-gradient(rgba(9, 132, 227,1.0), rgba(255, 118, 117,1.0));
+    background-size: cover;
+}
+
+#main-section #sign-in-options {
+    margin-top: 2%;
+    padding: 2%;
+}
+
+#main-section #sign-in-options #email-input {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#main-section #sign-in-options #email-input:hover {
+    transform: scale(1.1);
+    transition: transform .3s ease-in-out;
+}
+
+#main-section #sign-in-options #email-submit {
+    background-color: #3b55e6;
+    border: none;
+}
+
+#main-section #sign-in-options #email-submit:hover {
+    background-color: #425eff;
+    border: none;
+}
+
+#main-section #sign-in-options #heading {
+    padding-top: 1.2%;
+}
+
+#main-section h1,  #main-section h2, #main-section h3{
+    color: white;
+}
+
+#main-section #sign-up-facebook {
+    background-color: #4467d9;
+    border: none;
+}
+
+#main-section #sign-up-facebook:hover {
+    background-color: #527aff;
+    border: none;
+}
+
+#main-section #sign-up-google {
+    background-color: #cf2d2d;
+    border: none;
+}
+
+#main-section #sign-up-google:hover {
+    background-color: #ff3636;
+    border: none;
+}
+
+#awesome-features {
+    margin-top: 2%;
+    box-shadow: black 0 0 5px;
+    border-radius: 20px;
+}
+
+#awesome-features-box {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#awesome-features-details {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#main-section #awesome-features-box {
+    background-color: black;
+}
+
+#main-section #awesome-features-box h2 {
+    color: white;
+    position: relative;
+    top: 40%;
+    left: 9%;
+    font-weight: bolder;
+}
+
+#main-section .awesome-features-details {
+    background-color: #3b55e6;
+    color: white;
+}
+
+#main-section .awesome-features-details h2, #main-section .awesome-features-details h3, #main-section .awesome-features-details h4 {
+    color: white;
+}
+
+#section-2-container {
+    background-color: #efefef;
+    overflow: auto;
+    padding: 0 3%;
+}
+
+#section-2 {
+    padding: 2%;
+    background-color: white;
+    overflow: auto;
+    box-shadow: #424242 1px 1px 8px;
+}
+
+h2#how-it-works{
+    color: #2699fb;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#section-2-container #quote-box {
+    background-color: #3b55e6;
+    color: white;
+    font-size: 1.5em;
+    padding: 2%;
+    font-weight: bold;
+    width: 50%;
+}
+
+#quote-box #author {
+    font-size: .8em !important;
+    color: #afb9f4;
+}
+
+img#features-chart {
+    width: 1000px;
+}
+
+#footer {
+    background: #3b55e6;
+    color: white;
+    padding: 1% 2%;
+}
+
+#footer-logo {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#footer-description {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#footer #email {
+    color: #3b55e6;
+    border-radius: 20px;
+    text-align: center;
+    background-size: 40px;
+}
+
+#footer #email:hover {
+    transition: transform .3s ease-in-out;
+    transform: scale(1.1);
+}
+
+#footer button {
+    border-radius: 20px;
+    display: table;
+    margin: 3% auto !important;
+    width: 80%;
+}
+
+#footer-navigation {
+    margin-left: 5%;
+}
+
+#footer-navigation li>a {
+    color: white !important;
+    font-weight: bold;
+}
+
+#footer-navigation li>a:hover {
+    text-shadow: black 1px 1px 5px;
+}
+
+#footer #subscription-box {
+    max-width: 400px;
+}
+
+#footer #tweets-box {
+    margin-left: 4%;
+    max-width: 400px;
+}
+
+#footer #tweets {
+    height: 300px;
+    overflow: scroll;
+}
+
+/* For scroll bar */
+body::-webkit-scrollbar {
+    width: .8em;
+    border-radius: 1000px;
+}
+
+
+
+body::-webkit-scrollbar-track {
+    border: 2px solid #3b55e6;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3b55e6;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #3b55e6;
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background-color: white;
+}
+
+.dark {
+    color: #3b55e6;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.dark-button {
+    color: #3b55e6;
+    border-color: #3b55e6;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.dark-button:hover{
+    color: white;
+    background-color: #3b55e6;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.light {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a.simple:hover {
+    text-decoration: none;
+}
+
+.btn-sm {
+    margin-left: 1%;
+}
+/*sign up page */
+label {
+    color: #3b55e6;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input {
+    border-radius: 20px !important;
+    text-align: center;
+    background-color: #f0f2f7 !important;
+}
+
+textarea {
+    border-radius: 20px !important;
+    height: 200px !important;
+    background-color: #f0f2f7 !important;
+}

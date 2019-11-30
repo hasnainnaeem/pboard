@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Features | PBoard</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery.js"></script>
+</head>
+
+<style>
+    div#box {
+        width: 80%;
+        margin: 0 auto;
+        box-shadow: #424242 0 0 10px;
+        padding: 5%;
+    }
+
+    html, body {
+        height: 94%;
+    }
+
+    #wrap {
+        min-height: 100%;
+    }
+
+    #footer {
+        height: 7%;
+    }
+
+    .nav-item .active {
+        background-color: #3b55e6 !important;
+        border-radius: 20px !important;
+        text-transform: uppercase;
+    }
+
+</style>
+<body>
+
+<!-- Navigation menu -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html"><b>PBoard</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="features.html">FEATURES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+        <div class="inline float-right">
+
+        </div>
+        <div class="navbar-nav ml-auto">
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0"><a class="light simple" href="login.php">Login</a></button>&nbsp
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0"><a class="light simple" href="sign-up.php">Join</a></button>
+        </div>
+    </div>
+</nav>
+<!-- Main section -->
+<section id="wrap">
+    <br />
+    <br />
+
+    <h1 class="text-center dark">Privacy Policy & Terms</h1>
+    <div class='container' id="main-section-container">
+        <div id="box">
+                <b>Privacy and policies. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</b>
+                <p>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only ﬁve centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <p>
+                    <b>Where does it come from? </b><br />
+                    Contrary to popular belief, Lorem Ipsum is not simply random text.
+                    It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                    Richard McClintock, a Latin professor at HampdenSydney College in Virginia, looked up one of the
+                    more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of
+                    the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                    1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
+                    written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+                    The ﬁrst line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="footer">
+    <p class="text-center">© PBOARD 2019 | Designed with ❤ by Hasnain Naeem.</p>
+</footer>
+<script>
+    $tabItems = $("#pills-tab .nav-link");
+    $tabItems.on("click", function(){
+        let $this = $(this);
+        $tabItems.not($this).removeClass('active').attr('aria-selected', "false");
+        $this.addClass('active').attr('aria-selected', "true");
+        let $tabContent = $('.tab-content div');
+        let $selectedTab = $('[aria-labelledby="'+ $this.attr('id') + '"]');
+        $selectedTab.addClass('show').addClass('active');
+        $tabContent.not($selectedTab).removeClass('show').removeClass('active');
+    })
+</script>
+</body>
+</html>

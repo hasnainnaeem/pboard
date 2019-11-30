@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to PBoard</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvp
+    Q+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+
+<!-- Navigation menu -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html"><b>PBoard</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="features.html">FEATURES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+        <div class="inline float-right">
+
+        </div>
+        <div class="navbar-nav ml-auto">
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0"><a class="light simple" href="login.php">Login</a></button>&nbsp
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0"><a class="light simple" href="sign-up.php">Join</a></button>
+        </div>
+    </div>
+</nav>
+
+<!-- Main section -->
+    <div class="container-fluid" id="main-section-container">
+        <div class="container-fluid" id="main-section">
+        <div class="row" id="header">
+            <div class="col">
+                <h1 id="main-section-heading"><b>Boost</b> your productivity<br/>
+                    <b>Decode & achieve</b> your goals using <b>PBoard!</b></h1>
+            </div>
+        </div>
+        <div class="row" id="sign-in-options">
+            <div class="col" id="heading">
+                <h3 class="text-center"><b>SIGN UP // LOGIN</b></h3>
+            </div>
+            <div class="col">
+                <form action="php/check_user.php" method="post">
+                    <input id="email-input" class="form-control form-control-lg" name="email-input" type="text" placeholder="Email Address">
+                    <button id="email-submit" type="submit" class="btn btn-primary btn-lg btn-block">Get Started</button>
+                </form>
+            </div>
+            <div class="col">
+                <button id="sign-up-facebook" type="button" class="btn btn-primary btn-lg btn-block">Sign Up Using Facebook</button>
+                <button id="sign-up-google" type="button" class="btn btn-primary btn-lg btn-block">Sign Up Using Google</button>
+            </div>
+        </div>
+    <div class="container px-lg-5">
+        <div class="row mx-lg-n5" id="awesome-features">
+            <div class="col py-4 px-lg-1" id="awesome-features-box">
+                <h2>Awesome Features</h2>
+            </div>
+            <div class="col py-4 px-lg-5 awesome-features-details">
+                <h3><b>Clear, Organized, Faster</b></h3>
+                <br />
+                <br />
+                <br />
+                <h4>✓ Decode your ultimate goal</h4>
+                <p>Organize those into yearly, monthly & weekly goals.</p>
+                <br />
+                <h4>✓ Declutter your brain</h4>
+                <p>Using MIT (most important tasks) & To-Do sections</p>
+            </div>
+            <div class="col py-4 px-lg-5 awesome-features-details" id="awesome-features-details">
+                <h4>✓ To-Be list </h4>
+                <p>For self improvement & Repetitive Tasks section to
+                    accomplish daily life tasks.</p>
+                <br />
+                <h4>✓ Easy Performance Analysis </h4>
+                <p>Compare and keep track of your progress using beautiful
+                    charts & statistics.</p>
+                <br />
+                <h4>✓ Divide and Rule! </h4>
+                <p>Divide each task into subtasks and accomplish more!</p>
+            </div>
+        </div>
+        </div>
+            <br />
+        </div>
+        <br />
+    </div>
+
+    <div class="container-fluid" id="section-2-container">
+        <br />
+        <br />
+        <div class="container-fluid" id="section-2">
+            <div class="row">
+                <div class="span6" style="float: none; margin: 0 auto;">
+                    <h2 id="how-it-works">How it works</h2>
+                    <img id="features-chart" class="img-fluid rounded-lg mx-auto" src="images/site/feature-chart-pboard.PNG" alt="Features Chart">
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="container-fluid">
+            <div class="row">
+                <div id="quote-box" class="span6" style="float: none; margin: 0 auto;">
+                    <blockquote id="quote" class="text-center">80% of results come from 20% efforts. Choose your tasks wisely. </blockquote>
+                    <p id="author" class="text-right"><i>-The 80/20 Rule</i></p>
+                    <p class="text-center">
+                        <button id="previous-quote" type="button" class="btn btn-outline-light"><b><</b></button>
+                        <button id="next-quote" type="button" class="btn btn-outline-light"><b>></b></button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br />
+    </div>
+    <div class="container-fluid" id="footer">
+        <div class="row text-center">
+            <div class="col-lg-2">
+                <h1 id="footer-logo">
+                    PBOARD
+                </h1>
+                <p id="footer-description">Simple yet powerful  productivity boosting dashboard.</p>
+            </div>
+            <div class="col-lg-2" id="footer-navigation">
+                <h3><b>Navigation</b></h3>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="privacy-policies.html">Privacy & Terms </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Collaboration </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Blog  </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Submit Feedback</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3" id="subscription-box">
+                <h3 class="text-center"><b>Subscribe</b> to our weekly newsletter!</h3>
+                <input id="email" class="form-control" type="text" placeholder="Enter your email">
+                <button type="button" class="btn btn-outline-light">Subscribe</button>
+            </div>
+
+            <div class="col-lg-3" id="tweets-box">
+                <h3 class="text-center"><b>Latest Tweets</b></h3>
+                <div id="tweets">
+                    <a class="twitter-timeline" href="https://twitter.com/hasnainnaeemmk?ref_src=twsrc%5Etfw">
+                    </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+
+            <div class="col-lg-1 float-right"><a href="#"><img alt="Move to top" src="images/site/move-to-top.PNG"/></a></div>
+        </div>
+        <hr />
+        <p class="text-center">© PBOARD 2019 | Designed with ❤ by Hasnain Naeem.</p>
+    </div>
+<script>
+    let i = 0;
+    $quote = $("#quote");
+    $author = $("#author");
+    $nextButton = $("#next-quote");
+    $previousButton = $("#previous-quote");
+    let quotesArr;
+    $.post("data/quotes.json", function(data){
+        quotesArr=data["quotes"];
+    });
+    $nextButton.on("click", function(){
+        if(i+1 < quotesArr.length)
+            i++;
+        $quote.text(quotesArr[i][0]).hide().fadeIn();
+        $author.text("-"+quotesArr[i][1]).hide().fadeIn();
+    })
+    $previousButton.on("click", function(){
+        if(i-1 >= 0)
+            i--;
+        $quote.text(quotesArr[i][0]).hide().fadeIn();
+        $author.text("-"+quotesArr[i][1]).hide().fadeIn();
+    })
+</script>
+</body>
+</html>
