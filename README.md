@@ -1,5 +1,7 @@
 # PBoard - A Productivity Boosting Dashboard
-## Website Features
+This website was created as the semester project for the course Web Engineering. I was able to complete the front-end only and backend for user registration & login. *Wireframes (provided in the repo) were created before proceeding with the actual design.*
+
+## Website Features 
 - **Goals section** where user will be forced to think about Ultimate goal(s) of his/her life. 
 There will be sub-sections within Goals section which will include Yearly Goals, Monthly Goals and Daily Goals. 
 All these sections will help user make actionable plans to achieve Ultimate Goals.
@@ -12,3 +14,10 @@ All these sections will help user make actionable plans to achieve Ultimate Goal
     -	Beautiful graphs to display progress from the beginning (or from specified date) (Separate for MIT, daily and routine to-dos.)
 -	**To Be List** (For example, user cans set goal To Be Kind or To Be Funny.)
 -	**Stats Section**: page where user can see the stats of tasks through interactive, organized and beautiful charts & tables.
+
+## Technologies Used:
+- **Frontend**: HTML, CSS, Javascript (JQuery), Bootstrap
+- **Backend**: PHP & MYSQL
+
+## License
+MIT
