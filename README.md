@@ -16,6 +16,7 @@ All these sections will help user make actionable plans to achieve Ultimate Goal
 -	**Stats Section**: page where user can see the stats of tasks through interactive, organized and beautiful charts & tables.
 
 ## Technologies Used:
+- **Wireframes**: Adobe XD
 - **Frontend**: HTML, CSS, Javascript (JQuery), Bootstrap
 - **Backend**: PHP & MYSQL
 
